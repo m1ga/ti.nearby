@@ -1,0 +1,7 @@
+repositories {
+	google();
+}
+
+dependencies {
+	compile 'com.google.android.gms:play-services-nearby:17.0.0'
+}
