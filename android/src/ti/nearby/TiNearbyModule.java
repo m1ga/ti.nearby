@@ -83,7 +83,7 @@ public class TiNearbyModule extends KrollModule
 	}
 
 	@Kroll.method
-	public void sendData(String data)
+	public void send(String data)
 	{
 		Context context = TiApplication.getInstance().getAppRootOrCurrentActivity();
 		Message mMessage = new Message(data.getBytes());
