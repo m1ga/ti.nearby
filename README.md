@@ -1,8 +1,19 @@
 # Google Nearby module for Appcelerator Titanium
 
+<a href="https://developers.google.com/nearbyGoogle">Google Nearby</a> is an API to quickly connect nearby devices.
+<quote>The Nearby platform makes it easy to discover nearby devices and establish communication with them. It uses technologies such as Bluetooth, Wi-Fi, IP, and audio. </quote>
+
+<img src="noise.jpg"/>
+<br/>
+<small>visible high frequency pattern when sharing a message</small>
+
 ## API key
 
 Create a Google API key and enable Google Nearby.
+
+## Permissions
+
+Needs Bluetooth and ACCESS_FINE_LOCATION permission.
 
 ## Example
 
@@ -29,7 +40,7 @@ win.addEventListener("close",function(e){
 });
 btn.addEventListener("click",function(e){
 	// send text
-	nearby.sendData(tf.value);
+	nearby.send(tf.value);
 });
 nearby.addEventListener("message",function(e){
 	// receive text
