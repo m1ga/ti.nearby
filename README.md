@@ -1,5 +1,7 @@
 # Google Nearby module for Appcelerator Titanium
 
+<span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/miga" title="donate"><img src="https://img.shields.io/badge/buy%20me%20a%20coke-donate-orange.svg" alt="Buy Me A Coke donate button" /></a></span>
+
 <a href="https://developers.google.com/nearbyGoogle">Google Nearby</a> is an API to quickly connect nearby devices.
 > The Nearby platform makes it easy to discover nearby devices and establish communication with them. It uses technologies such as Bluetooth, Wi-Fi, IP, and audio.
 
